@@ -1,0 +1,12 @@
+h1 {
+    font-size: 150%;
+}
+
+.top {
+    background-color: #313131;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: black;
+    border-bottom-width: 5px;
+}
