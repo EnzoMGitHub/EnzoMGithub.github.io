@@ -1,3 +1,9 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 h1 {
     font-size: 150%;
 }
@@ -9,4 +15,13 @@ h1 {
     justify-content: space-evenly;
     border-bottom: black;
     border-bottom-width: 5px;
+    width: 100%;
+}
+
+.lang {
+    height: 50em;
+}
+.h:hover {
+    color: aqua;
+    text-decoration: underline;
 }
