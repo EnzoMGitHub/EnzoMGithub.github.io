@@ -3,7 +3,9 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
-
+#name {
+    font-size: 50px !important;
+}
 h1 {
     font-size: 150%;
     margin-bottom: 40px;
@@ -28,12 +30,17 @@ h3 {
 #all {
     display: flex;
     margin-bottom: 55px;
+    position: relative;
+    top: 20px;
+    --div-width: 250px;
+    
 }
 #pic {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     flex: 50%;
     position: relative;
     top: 55px;
+    text-align: center;
 }
 #iden {
     flex: 50%;
@@ -41,17 +48,26 @@ h3 {
     position: relative;
     top: 55px !important;
     padding-bottom: 40px;
-    border: 3px solid black;
+    font-size: large;
+    margin-left: 10px;
+    width: var(--div-width);
+    /* border: 3px solid black; */
     /* margin-top: 20px !important; */
 }
 
 #me {
     height: 50px;
+    height: 20%;
+    border-radius: 50% !important;
 }
-
+.uni {
+    position: relative;
+    top: 50px;
+    font-size: 30px !important;
+}
 .lang {
     height: 50em !important;
-    border-radius: 0% !important;
+    
 }
 #person {
     border: #313131;
@@ -61,4 +77,17 @@ h3 {
 .h:hover {
     color: aqua;
     text-decoration: underline;
+}
+
+#imp {
+    display: flex;
+    height: 50px;
+    text-align: center;
+    margin-left: 10% !important;
+    width: var(--div-width);
+}
+
+#linkedR {
+    margin-left: 10px;
+    flex: auto;
 }
